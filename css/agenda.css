@@ -1,0 +1,78 @@
+html {
+    scroll-behavior: smooth;
+    line-height: 1.15;
+    font-family: 'Scheherazade New', serif;
+}
+body {
+    margin: 0;
+    background-color :#C0C0C0;
+}
+ul {
+    list-style: none;
+}
+h1 {
+    color : white;
+    padding: 0.5em 1em;
+}
+/*============================================== TABLEAU ========================================*/
+table {
+    border-collapse: collapse; 
+    margin: auto;
+    background-color: white;
+}
+th, td {
+    border : 2px solid #1d1801;
+    border-collapse: collapse; 
+    text-align: center;
+}
+ td {
+    padding: 0.7em 1em;
+}
+thead th {
+    width: 10em;
+    background-color: #131413;
+    color: white;
+    padding: 1em 0;
+}
+thead td {
+    background-color: #131413;
+    color: white;
+}
+tbody th {
+    font-family: cursive;
+    padding: 1em;
+    background-color: #131413;
+    color: white;
+}
+tbody td {
+    font-size: 1.3em;
+}
+
+/*============================================== RÉFÉRENTIEL ========================================*/
+
+.anniv {
+    background-color: tomato;
+    font-weight: bold;
+}
+.deadline {
+    background-color: violet;
+}
+.sport {
+    background-color: yellowgreen;
+}
+.soiree {
+    background-color: orangered;
+}
+.ref {
+    margin : 2em;
+    background-color: #131413;
+    color: white;
+    padding: 1em;
+    width: 20%;
+    border : 2px solid white;
+}
+div {
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%; 
+}

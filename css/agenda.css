@@ -71,8 +71,58 @@ tbody td {
     width: 20%;
     border : 2px solid white;
 }
-div {
+.ref div {
     width: 20px; 
     height: 20px; 
     border-radius: 50%; 
 }
+
+/*============================================== FORMULAIRE ========================================*/
+
+form {
+    font-size: 1.5em;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: #131413;
+    color: white;
+    border: 2px solid #bc4764;	
+    display: flex;
+    flex-wrap: wrap;
+}
+form div {
+    padding : 1em;
+}
+legend {
+    width: 100%;
+    padding: 0.5em;
+    text-align: center;
+    background-color: coral;
+    margin-bottom: 1em;
+}
+fieldset {
+    margin : 0.5em;
+    width: 11em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titre label, .description label {
+    display: block;
+    text-align: center;
+}
+.titre input {
+    width : 100%;
+}
+.description textarea {
+    height: 6em;
+    width: 100%;
+}
+button {
+    width: 15em;
+    margin: auto;
+    height: 3em;
+    border-radius: 25px;
+}
+
